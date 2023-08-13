@@ -3,6 +3,9 @@ Mini project to send details to google sheet
 
 ## How to launch?
 - Clone the repository
+```
+git clone https://github.com/nitindoodhiya/google-sheets.git
+```
 - Change directory into the project
 ```
 cd google-sheets/
