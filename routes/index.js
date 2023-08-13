@@ -35,9 +35,7 @@ router.post('/register', async (req, res, next) => {
       resource: { values: [[name, mobile]] },
     });
     
-    return res.status(200).json({
-      message: 'Thanks for registering',
-    });
+    return res.render('thanks');
   } catch (err) {
     return res.status(500).json({
       message: 'Something went wrong',
