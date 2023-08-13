@@ -37,9 +37,9 @@ router.post('/register', async (req, res, next) => {
     
     return res.render('thanks');
   } catch (err) {
+    console.log(`Error time: ${Date.now()}\n error: ${err}`);
     return res.status(500).json({
       message: 'Something went wrong',
-      error: err,
     });
   }
 });
