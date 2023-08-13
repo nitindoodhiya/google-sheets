@@ -5,7 +5,7 @@ Mini project to send details to google sheet
 - Clone the repository
 - Change directory into the project
 ```
-cd identity-reconciliation/
+cd google-sheets/
 ```
 - Get GCP credentials file from Google Console and save in root/configuration/credentials.json
 - Set the env variable from .env.sample file
